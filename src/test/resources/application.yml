@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      port: 123
+      host: localhost
+      database: local
+      username: user
+      password: password
