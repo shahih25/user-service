@@ -1,8 +1,6 @@
 spring:
   data:
     mongodb:
-      port: 123
+      port: 27017
       host: localhost
-      database: local
-      username: user
-      password: password
+      database: microcam

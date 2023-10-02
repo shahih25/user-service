@@ -21,7 +21,7 @@ public class UserCommandController {
     @PostMapping("/signup")
     @ResponseStatus(CREATED)
     public void createNewUser(@RequestBody final User user) {
-        log.info("Received create new user");
+        log.info("Received request to create new user");
         userCommandService.createNewUser(user);
     }
 }
