@@ -1,2 +1,2 @@
 # user-service
-Service to to handle user details
+Service to handle user details
